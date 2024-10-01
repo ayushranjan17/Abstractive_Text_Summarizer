@@ -1,6 +1,6 @@
 # Abstractive Text Summarization - Encoder-Decoder with Attention Mechanism
 
-## Project Overview
+## Overview
 
 This project implements an **Abstractive Text Summarization** system using an **LSTM-based Seq2Seq Encoder-Decoder model** with an **Attention Mechanism**. The model is designed to summarize lengthy articles into concise highlights, making it suitable for tasks like summarizing news articles or other long-form content. 
 
