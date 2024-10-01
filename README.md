@@ -38,14 +38,6 @@ The model was trained for 30 epochs, using the **Adam optimizer** and **sparse c
 
 **BLEU Score**: The model achieved a BLEU score of **0.38** on the CNN/Daily Mail test set.
 
-### Predictions on CNN/Daily Mail
-
-**Review**: "Amid crowning new world champion, another dazzling performance... the cosmopolitan hotel guilty yet glaring errors Ireland’s Andy Lee glad spared fate stopped Matt Korobov win WBO middleweight crown Timothy Bradley."
-
-**Original summary**: "Mauricio Herrera, Timothy Bradley left stunned scores read Bradley looked returned winning ways Diego Chaves three ringside judges saw fight differently draw."
-
-**Predicted summary**: "Floyd Mayweather Manny Pacquiao WBO welterweight title Las Vegas lawler Saunders welterweight champion Eubank Jnr world champion Amir Khan fight."
-
 ## Evaluation
 
 The model’s performance was also tested using Cosine Similarity with **Universal Sentence Encoder**. This provided insights into the semantic similarity between the predicted and actual summaries, complementing the BLEU score evaluation.
