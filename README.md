@@ -15,8 +15,6 @@ The dataset includes:
 - **13,368 validation pairs**
 - **11,490 test pairs**
 
-Additionally, we ran predictions on the **Inshorts dataset**, which contains short-form news summaries. The dataset was preprocessed by removing stopwords, expanding contractions, and cleaning the text for model training.
-
 ## Key Features
 
 - **LSTM-based Encoder-Decoder Architecture**: This Seq2Seq model encodes the input text and decodes it into a summary.
