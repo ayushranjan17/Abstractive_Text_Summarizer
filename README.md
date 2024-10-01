@@ -20,3 +20,31 @@ Predicted summary: hc upholds plea seeking death tandoor 1984 riots case
 Review: grand mosque mecca set undergo 266 billion expansion nearly two years work stopped wake crane collapse site left 107 people dead development grand mosque surrounding area resume annual haj pilgrimage
 Original summary: saudi restart work 266 bn grand mosque expansion
 Predicted summary: restart opens world largest largest demolished
+
+
+# Abstractive Text Summarization - Encoder-Decoder with Attention Mechanism
+
+## Project Overview
+
+This project implements a **Text Summarization** system using an Encoder-Decoder architecture with an **Attention Mechanism**. The model is trained to summarize long articles into concise highlights using the **CNN/Daily Mail dataset**. The key components of the model include:
+- **LSTM layers** for both the encoder and decoder.
+- **Attention layer** to focus on important parts of the input sequence.
+- Pre-trained **GloVe word embeddings** for rich semantic information.
+
+## Dataset
+
+We use the **CNN/Daily Mail dataset**, which contains news articles paired with corresponding highlights (summaries). The dataset is preprocessed to remove stopwords, handle contractions, and clean the text for modeling.
+
+## Key Features
+- **Encoder-Decoder Architecture**: Uses LSTM layers to encode the input article and decode it into a summary.
+- **Attention Mechanism**: Improves the ability of the model to capture key points in long input sequences.
+- **GloVe Embeddings**: Pre-trained word embeddings are used to provide semantic information to the model.
+- **Evaluation Metrics**: BLEU score and Cosine similarity are used to evaluate the generated summaries.
+
+## Model Architecture
+The model consists of:
+1. **Encoder**: Three LSTM layers with dropout.
+2. **Decoder**: LSTM layer initialized with encoder states.
+3. **Attention Layer**: A custom attention layer to calculate the context vector.
+4. **Dense Layer**: To produce the final output sequence.
+
